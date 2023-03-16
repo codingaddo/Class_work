@@ -27,8 +27,8 @@ html{
 
 
 body{
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw; */
+    /* height: 100vh; */
 }
 .head{
     background-color: rgb(233, 248, 248);
@@ -39,7 +39,8 @@ body{
     top:0;
     width: 100vw;
     padding:.9vw;
-    z-index: 9999;
+    z-index:999;
+    box-shadow: .25px .2px 2px .3px rgb(154, 244, 244) ;
 }
 
 .head nav ul{
@@ -106,6 +107,7 @@ ul li a:hover{
 
 main{
     width: 100vw;
+    padding-top: .3vw;
     
 }
 
@@ -115,7 +117,6 @@ main{
     /* border-radius:1.2vw; */
     /* height: 100vh; */
     overflow-y: hidden;
-    margin-bottom: 10vw;
     height: 100vh;
 
 }
@@ -220,9 +221,8 @@ main{
 }
 
 .about{
-    margin-bottom:10vw;
     padding-left: 5vw;
-    padding: r5vw;
+    padding: 5vw;
     position: relative;
     top: 10vw;
     display: flex;
@@ -268,7 +268,6 @@ main{
 .box:hover{
     transform: scale(1.1);
     background-color: rgb(50, 249, 219);
-    /* box-shadow: 0 15px 0 15px rgb(73, 240, 224); */
 }
 
 .box:hover .blue{
@@ -289,12 +288,15 @@ main{
     font-size: 1.8vw;
 }
 
-
+.success{
+    padding-top: 5vw;
+}
 .successCont{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap:5vw;
-    margin-bottom: 5vw;
+    padding-top: 3vw;
+    /* width: 50vw; */
 }
 
 .firstCont{
@@ -303,8 +305,8 @@ main{
     position: relative;
     height: 15vw;
     overflow-y: hidden;
-    border-radius: 5vw;
-    box-shadow: 25px 25px 25px 25 25px rgb(72, 192, 244);
+    border-radius: 2vw;
+    box-shadow: 0 0 0 .5px rgb(177, 223, 243);
 
 }
 .firstCont img{
