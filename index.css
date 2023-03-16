@@ -26,10 +26,6 @@ html{
 }
 
 
-body{
-    /* width: 100vw; */
-    /* height: 100vh; */
-}
 .head{
     background-color: rgb(233, 248, 248);
     display: flex;
