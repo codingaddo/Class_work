@@ -34,7 +34,7 @@ html{
     position: fixed;
     top:0;
     width: 100vw;
-    padding:.9vw;
+    padding:1.1vw;
     z-index:999;
     box-shadow: .25px .2px 2px .3px rgb(154, 244, 244) ;
 }
@@ -125,7 +125,7 @@ main{
     width: 100vw;
     height: 45vh;
     text-align: center;
-    background-color: rgba(156, 153, 149, 0.516);
+    background-color: rgb(136, 244, 244);
 
 }
 .text{
@@ -135,14 +135,15 @@ main{
     overflow-y: hidden;
 }
 .text a{
-    color:white;
+    color:rgb(91, 80, 80);
     letter-spacing: .2vw;
+    font-weight: 600;
 
 }
 
 .text h4{
-    font-weight: 300;
-    color: white;
+    font-weight: 600;
+    color: rgb(91, 80, 80);
     letter-spacing: .2vw;
 }
 
@@ -150,7 +151,7 @@ main{
 
 .image img{
     height: 35vh;
-    opacity:.9;
+    opacity:.5;
     position: relative;
     top: 3vw;
 }
