@@ -54,7 +54,7 @@ a{
 }
 
 ul li a{
-    font-size: .8vw;
+    font-size: .9vw;
     font-weight: 700;
     transition: .5s;
 }
@@ -63,15 +63,14 @@ ul li a{
 ul li a:hover{
     display: inline;
     color: rgb(203, 127, 35);
-    text-decoration: underline;
-    transform: scale(1.1);
+    text-decoration:  5px underline;
 }
 
 .head .consultation{
     background-color: rgb(49, 48, 48);
     color: white;
     padding:.6vw;
-    font-size:.5vw;
+    font-size:.6vw;
     font-weight: 900;
     border-radius: .4vw;
     transition: .3s;
@@ -85,7 +84,7 @@ ul li a:hover{
 }
 
 .start{
-    font-size: .9vw;
+    font-size: 1vw;
 
 }
     
@@ -94,7 +93,7 @@ ul li a:hover{
 .search input{
     border: none;
     outline: none;
-    font-size: .75vw;
+    font-size: .8vw;
     border-radius: .8vw;
     padding: .3vw;
     text-align: center;
@@ -565,3 +564,46 @@ footer{
 .last ul li a:hover{
     text-decoration: none;
 }
+
+
+.partners img{
+    width: 100vw;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(233, 248, 248);
+    /* padding: 2vw; */
+    padding-top: 2vw;
+    padding: 2vw;
+    margin: 0 auto;
+    position: absolute;
+    top: 245vw;
+    left: 6vw;
+    border-radius: .2vw;
+    gap: 2vw;
+}
+
+.card{
+    background-color:rgb(146, 245, 245);
+    width: 15vw;
+    height: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    /* from { left: 0; }
+    to { left: 100vw; } */
+    0%{left :100vw}
+    25%{left: 75vw;}
+    50%{left: 50vw;}
+    75%{left: 25vw;}
+    100%{left: 0;}
+  }
+
+ 
