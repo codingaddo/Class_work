@@ -300,7 +300,7 @@ main{
 }
 
 .firstCont{
-    border: 1px solid black;
+    border: 1px solid;
     text-align: center;
     position: relative;
     height: 15vw;
@@ -314,11 +314,13 @@ main{
     height: 15vw;
 }
 
+
+
 .up{
     position: relative;
     top: -10vw;
     opacity: 0;
-    width: 20vw;
+    width: 25vw;
     height: 20vw;
     transition: .8s;
     background-color: rgb(46, 84, 84);
@@ -327,6 +329,17 @@ main{
     flex-direction: column;
     justify-content: center;
     /* gap: 1vw; */
+}
+
+
+.firstCont a{
+    position: relative;
+    z-index: 999;
+    font-size:1.5vw;
+    color: rgb(46, 84, 84);
+    bottom: 7vw;
+    left: .5vw;
+    cursor: pointer; 
 }
 
 .firstCont:hover{
