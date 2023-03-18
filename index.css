@@ -113,7 +113,7 @@ main{
     /* border-radius:1.2vw; */
     /* height: 100vh; */
     overflow-y: hidden;
-    height: 100vh;
+    margin-bottom:2vw;
 
 }
 
@@ -195,17 +195,17 @@ main{
 }
 
 
-.home button{
+.btn{
     padding:.8vw;
     font-size: 1.3vw;
     border-radius:.5vw;
     width: 15vw;
-    background-color: rgb(197, 247, 247);
+    background-color: rgb(179, 244, 244);
     font-weight: 500;
     position: relative;
     left: 60vw;
     bottom:5vw;
-    transition: .5s;
+    transition: 1s;
     cursor: pointer;
     border: none;
 }
@@ -214,6 +214,8 @@ main{
     transform: scale(1.1);
     background-color: rgb(125, 243, 243);
     bottom: 5.5vw;
+    box-shadow: 0 0 3px 1.5px rgb(41, 78, 78);
+
 }
 
 .about{
@@ -259,11 +261,13 @@ main{
     background-color: rgb(234, 240, 247);
     transition: .5s;
     cursor: pointer;
+
 }
 
 .box:hover{
     transform: scale(1.1);
     background-color: rgb(50, 249, 219);
+
 }
 
 .box:hover .blue{
@@ -290,7 +294,7 @@ main{
 .successCont{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap:5vw;
+    gap:4vw;
     padding-top: 3vw;
     /* width: 50vw; */
 }
@@ -316,13 +320,18 @@ main{
     opacity: 0;
     width: 20vw;
     height: 20vw;
-    transition: .7s;
+    transition: .8s;
     background-color: rgb(46, 84, 84);
     cursor: pointer;
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* gap: 1vw; */
+}
+
+.firstCont:hover{
+    box-shadow: 0 0 10px 5px rgb(194, 239, 239);
+
 }
 
 .firstCont:hover .up{
@@ -337,6 +346,16 @@ main{
 
 .contact{
     margin-bottom:10vw ;
+
+}
+
+.contact h2{
+    font-size: 2.5vw;
+    width: 35vw;
+    text-align: center;
+    padding-bottom: .1vw;
+    font-weight: 900;
+    letter-spacing: .2vw;
 }
 .inputs{
     display: flex;
@@ -355,6 +374,7 @@ main{
     border-radius:.5vw;
     padding: 1.5vw;
     font-size: 1.2vw;
+
 }
 .inputs button{
     background-color:  rgb(180, 247, 247);
@@ -373,10 +393,161 @@ main{
 .inputs button:hover{
     transform: scale(1.1);
     background-color:rgb(68, 239, 239) ;
+    /* box-shadow: 0 0 3px 1.5px rgb(11, 41, 41); */
+
 }
 
 
 footer{
     background-color: rgb(136, 244, 244);
-    height: 40vw;
+    height: 43vw;
+    padding-left: 1vw;
+    padding-right: 1.7vw;
+    /* padding: 4vw; */
+}
+
+.fContainer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10vw;
+    height: 15vw;
+}
+
+.symbol h2{
+    height:3vw;
+    width: 3vw;
+    border-radius: 50%;
+    background-color: rgb(233, 248, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8vw;
+}
+
+.symbol{
+    width: 23vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2vw;
+    cursor: pointer;
+    padding: 1vw;
+    border-radius: .2vw;
+
+}
+.symText{
+    display: flex;
+    align-items: center;
+    gap:1.2vw;
+}
+
+.symText h5{
+    font-size:.7vw;
+}
+
+.symbol h6{
+    color: #959090;
+    font-size: 1vw;
+}
+
+.mail,.number{
+    border-radius: .2vw;
+    background-color: rgb(233, 248, 248);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 2vw 3vw 2vw 3vw;
+    color: rgb(60, 70, 79);
+    box-shadow: 0 0 .1px .1px rgb(215, 220, 220);
+   
+}
+
+.hover{
+     cursor: pointer;
+    position: relative;
+    transition: 1s ease-in-out;
+}
+
+.hover:hover{
+    box-shadow: 0 0 3px 1.5px rgb(11, 41, 41);
+    transform: scale(1.2);
+}
+
+.fContainer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 248, 248);
+    padding: 4vw;
+    gap: 3vw;
+    
+}
+.sub h2{
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.Subsearch input{
+    border-radius: .5vw;
+    padding: 1vw;
+    width: 15vw;
+    border: .2px solid;
+    background-color: rgb(233, 248, 248);
+}
+
+.Subsearch{
+    display: flex;
+    gap: 2vw;
+}
+.Subsearch button{
+    padding:.8vw;
+    font-size: 1.3vw;
+    border-radius:.5vw;
+    width: 15vw;
+    background-color: rgb(146, 245, 245);
+    font-weight: 500;
+    transition:.3s;
+    cursor: pointer;
+    border: none;
+
+}
+
+.Subsearch button:hover{
+    background-color: rgb(54, 224, 224);
+}
+
+.fContainer3{
+    display: flex;
+    justify-content: center;
+    gap: 7vw;
+    padding-top: 3vw;
+}
+
+.lastBox{
+    width: 20vw;
+    height: 12vw;
+    background-color:rgb(233, 248, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+    border-radius: .7vw;
+    cursor: pointer;
+}
+
+.last h4{
+    color: rgb(143, 158, 132);
+    font-weight: 500;
+}
+.last ul li{
+    padding-bottom:.5vw ;
+    font-size: 1.5vw;
+}
+.last ul li a{
+    font-size: .9vw;
+}
+
+.last ul li a:hover{
+    text-decoration: none;
 }
