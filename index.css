@@ -27,7 +27,7 @@ html{
 
 
 .head{
-    background-color: rgb(233, 248, 248);
+    background-color: rgb(211, 254, 254);
     display: flex;
     justify-content: center;
     gap: 15vw;
@@ -570,11 +570,17 @@ footer{
     width: 100vw;
 }
 
+.partners .h1{
+    position: relative;
+    top: 15vw;
+    left: 45vw;
+    font-weight: 900;
+    font-size: 3vw;
+}
+
 .cards{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(233, 248, 248);
-    /* padding: 2vw; */
     padding-top: 2vw;
     padding: 2vw;
     margin: 0 auto;
@@ -593,17 +599,17 @@ footer{
     justify-content: center;
     align-items: center;
     position: relative;
-    animation: move 10s ease-in-out infinite alternate;
+    animation: move 2s ease-in-out infinite alternate;
 }
 
 @keyframes move {
-    /* from { left: 0; }
-    to { left: 100vw; } */
-    0%{left :100vw}
-    25%{left: 75vw;}
-    50%{left: 50vw;}
-    75%{left: 25vw;}
-    100%{left: 0;}
+    from { right: 0; }
+    to { right: 45px; }
+    /* 0%{right:80vw}
+    25%{left: 50vw;}
+    50%{left: 20vw;}
+    75%{left: 10vw;}
+    100%{right: 0;} */
   }
 
  
