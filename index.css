@@ -110,7 +110,7 @@ main{
 .home{
     overflow-y: hidden;
     position: relative;
-    padding-top: 5vw;
+    padding-top: 2vw;
     /* top: 3.4vw; */
     /* border-radius:1.2vw; */
     /* height: 100vh; */
@@ -118,17 +118,6 @@ main{
 
 }
 
-.image{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 45vh;
-    text-align: center;
-    background-color: rgb(136, 244, 244);
-
-}
 .text{
     position: relative;
     bottom:8vw;
@@ -146,15 +135,6 @@ main{
     font-weight: 600;
     color: rgb(91, 80, 80);
     letter-spacing: .2vw;
-}
-
-
-
-.image img{
-    height: 35vh;
-    opacity:.5;
-    position: relative;
-    top: 3vw;
 }
 
 .txt{
@@ -195,6 +175,13 @@ main{
 .txt h2{
     font-size: 2vw;
 }
+.txt .summary h1{
+    font-weight: 900;
+    font-size: 3.5vw;
+    position: relative;
+    bottom: .5vw;
+}
+
 
 
 .btn{
@@ -385,6 +372,7 @@ main{
 
 .contact input,textarea{
     border: none;
+    outline: none;
     background-color: rgb(238, 244, 250);
     border-radius:.5vw;
     padding: 1.5vw;
@@ -594,6 +582,7 @@ footer{
 }
 
 .card{
+    cursor: pointer;
     background-color:rgb(146, 245, 245);
     width: 15vw;
     height: 8vw;
@@ -606,8 +595,8 @@ footer{
 }
 
 @keyframes move {
-    from { right: 0; }
-    to { right: 45px; }
+    from { right: -50px; }
+    to { right: 50px; }
     /* 0%{right:80vw}
     25%{left: 50vw;}
     50%{left: 20vw;}
