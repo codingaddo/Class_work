@@ -30,6 +30,7 @@ html{
     background-color: rgb(211, 254, 254);
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 15vw;
     position: fixed;
     top:0;
@@ -107,12 +108,13 @@ main{
 }
 
 .home{
+    overflow-y: hidden;
     position: relative;
-    top: 3.4vw;
+    padding-top: 5vw;
+    /* top: 3.4vw; */
     /* border-radius:1.2vw; */
     /* height: 100vh; */
-    overflow-y: hidden;
-    margin-bottom:2vw;
+    /* margin-bottom:2vw; */
 
 }
 
@@ -171,7 +173,7 @@ main{
 .txt .summary{
     width:40vw;
     position: relative;
-    bottom:6vw;
+    bottom:4.5vw;
     display: flex;
     flex-direction: column;
     gap:1vw;
@@ -183,7 +185,7 @@ main{
 
 .txt .featured{
     font-size: 2vw;
-    font-weight: 500;
+    font-weight: 600;
 
 }
 .txt h3{
@@ -204,7 +206,7 @@ main{
     font-weight: 500;
     position: relative;
     left: 60vw;
-    bottom:5vw;
+    bottom:3vw;
     transition: 1s;
     cursor: pointer;
     border: none;
@@ -213,16 +215,16 @@ main{
 .home button:hover{
     transform: scale(1.1);
     background-color: rgb(125, 243, 243);
-    bottom: 5.5vw;
+    bottom: 3.5vw;
     box-shadow: 0 0 3px 1.5px rgb(41, 78, 78);
 
 }
 
 .about{
-    padding-left: 5vw;
+    /* padding-left: 5vw; */
     padding: 5vw;
     position: relative;
-    top: 10vw;
+    top: 8vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -585,7 +587,7 @@ footer{
     padding: 2vw;
     margin: 0 auto;
     position: absolute;
-    top: 245vw;
+    top: 223vw;
     left: 6vw;
     border-radius: .2vw;
     gap: 2vw;
@@ -600,6 +602,7 @@ footer{
     align-items: center;
     position: relative;
     animation: move 2s ease-in-out infinite alternate;
+    /* animation: move 3s ease-out infinite alternate-reverse; */
 }
 
 @keyframes move {
